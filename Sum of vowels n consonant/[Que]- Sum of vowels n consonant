@@ -1,0 +1,24 @@
+Question :- Can be any string given, we have get the sum of the string. 
+but the rules are:- 
+    How to perform sum:- 
+        1) if the value at the 
+            [current_index_value] -> vowel, and
+            [the next_index_value] -> consonant 
+            then, we'll take the [current_index_value] and can add it to sum.
+           BUT,
+        2) if the 
+            [current_index_value] -> vowel, and
+            [the next_index_value] -> vowel
+            both index value is vowel then, we'll compare the values as ASCII codes and check 
+            who is greater and add it.
+   EXAPMPLE:-
+        given:
+           1) string = "aegu"
+            then, 
+                 we'll consider
+                      Sum(e + g + u) 
+            2) string = "fjwoefjlsflsf
+            then, 
+                 we'll consider
+                      Sum(w + o + s)
+                
