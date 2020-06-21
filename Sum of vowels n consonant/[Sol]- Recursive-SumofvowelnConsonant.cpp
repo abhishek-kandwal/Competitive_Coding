@@ -1,3 +1,5 @@
+// recurcive solution to this problem.
+
 #include <iostream>
 #include <cstring>
 
